@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="quiz.css">
+        <title>Quiz - Page 1</title>
+    </head>
+    <body>
+        <div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+         </div>
+
+         <div class="main-box">
+            <h1>Eighth question!</h1>
+            <div class="no-question-box">
+                <p>Which food would I pick over the rest?</p>
+                <form id="quizForm" data-correct-answer="option1">
+                    <label>
+                        <input type="radio" name="group1" value="option1"> Pizza&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </label>
+                    <label>
+                        <input type="radio" name="group1" value="option2"> Burger&nbsp;&nbsp;
+                    </label>
+                    <label>
+                        <input type="radio" name="group1" value="option3"> Kebab&nbsp;&nbsp;
+                    </label>
+                </form>
+                <button class="submit" onclick="checkAnswer()">Submit</button>
+            </div>
+         </div>
+
+        <p id="nextPage" style="display: none;">9</p>
+        <script src="script.js"></script>
+    </body>
+</html>

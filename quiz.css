@@ -1,0 +1,39 @@
+.main-box {
+    margin-top: 200px;
+    text-align: center;
+    max-width: 600px; /* Set a maximum width for the box */
+    margin-left: auto; /* Auto margin left and right to center horizontally */
+    margin-right: auto;
+    font-size: 28px;
+}
+
+.no-question-box {
+    background-color: rgb(111, 45, 168, 0.5);
+    border-radius: 22px;
+    padding: 5px 10px 10px 10px;
+    max-width: 400px;
+    margin-left: auto; /* Auto margin left and right to center horizontally */
+    margin-right: auto;
+    color: white;
+    font-size: 22px;
+    box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    vertical-align: left;
+    margin-right: 20px; /* Adjust the margin between the radio button and text */
+}
+
+.spoiler::after {
+    content: attr(data-content);
+    color: transparent;
+}
+
+.spoiler:hover::after {
+    color: black;  /* Adjust the color as needed */
+}

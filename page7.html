@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="cs-cz">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="general.css">
+        <link rel="stylesheet" href="quiz.css">
+        <title>Quiz - Page 1</title>
+    </head>
+    <body>
+        <div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+         </div>
+
+         <div class="main-box">
+            <h1>Seventh question!</h1>
+            <div class="no-question-box">
+                <p>What is my favorite snack HAHA? btw I love every single one</p>
+                <form id="quizForm" data-correct-answer="option2">
+                    <label>
+                        <input type="radio" name="group1" value="option1"> Oreo milka&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </label>
+                    <label>
+                        <input type="radio" name="group1" value="option2"> White-chocolate KitKat&nbsp;
+                    </label>
+                    <label>
+                        <input type="radio" name="group1" value="option3"> Donutsss&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </label>
+                </form>
+                <button class="submit" onclick="checkAnswer()">Submit</button>
+            </div>
+         </div>
+
+        <p id="nextPage" style="display: none;">8</p>
+        <script src="script.js"></script>
+    </body>
+</html>
